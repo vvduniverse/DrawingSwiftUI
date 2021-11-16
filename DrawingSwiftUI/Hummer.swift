@@ -18,15 +18,16 @@ struct Hummer: View {
             path.addLine(to: CGPoint(x: 65, y: 60))
             path.addLine(to: CGPoint(x: 100, y: 60))
             path.addLine(to: CGPoint(x: 110, y: 220))
-            path.addArc(center: CGPoint(x: 120, y: 220),
-                        radius: 10,
-                        startAngle: .degrees(0),
-                        endAngle: .degrees(180),
-                        clockwise: false)
+//            path.addArc(center: CGPoint(x: 120, y: 220),
+//                        radius: 10,
+//                        startAngle: .degrees(0),
+//                        endAngle: .degrees(180),
+//                        clockwise: false)
         }
         .rotation(Angle.degrees(-45))
         .offset(x: 20, y: 20)
         .scaleEffect(0.8)
+        .foregroundColor(Color.yellow)
     }
 }
 

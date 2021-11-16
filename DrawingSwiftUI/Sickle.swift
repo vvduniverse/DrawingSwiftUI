@@ -27,6 +27,7 @@ struct Sickle: View {
         .rotation(Angle.degrees(45))
         .offset(y: 20)
         .scaleEffect(0.8)
+        .foregroundColor(Color.yellow)
     }
 }
 
