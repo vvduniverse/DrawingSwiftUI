@@ -11,6 +11,9 @@
 		A092822C274418CC003387F8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A092822B274418CC003387F8 /* ContentView.swift */; };
 		A092822E274418CE003387F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A092822D274418CE003387F8 /* Assets.xcassets */; };
 		A0928231274418CE003387F8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0928230274418CE003387F8 /* Preview Assets.xcassets */; };
+		A09282382744194E003387F8 /* Hummer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09282372744194E003387F8 /* Hummer.swift */; };
+		A092823A27441965003387F8 /* Sickle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A092823927441965003387F8 /* Sickle.swift */; };
+		A092823C27441975003387F8 /* Flag.swift in Sources */ = {isa = PBXBuildFile; fileRef = A092823B27441975003387F8 /* Flag.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		A092822B274418CC003387F8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A092822D274418CE003387F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A0928230274418CE003387F8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A09282372744194E003387F8 /* Hummer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hummer.swift; sourceTree = "<group>"; };
+		A092823927441965003387F8 /* Sickle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sickle.swift; sourceTree = "<group>"; };
+		A092823B27441975003387F8 /* Flag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flag.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +59,9 @@
 			children = (
 				A0928229274418CC003387F8 /* DrawingSwiftUIApp.swift */,
 				A092822B274418CC003387F8 /* ContentView.swift */,
+				A09282372744194E003387F8 /* Hummer.swift */,
+				A092823927441965003387F8 /* Sickle.swift */,
+				A092823B27441975003387F8 /* Flag.swift */,
 				A092822D274418CE003387F8 /* Assets.xcassets */,
 				A092822F274418CE003387F8 /* Preview Content */,
 			);
@@ -139,6 +148,9 @@
 			files = (
 				A092822C274418CC003387F8 /* ContentView.swift in Sources */,
 				A092822A274418CC003387F8 /* DrawingSwiftUIApp.swift in Sources */,
+				A092823C27441975003387F8 /* Flag.swift in Sources */,
+				A092823A27441965003387F8 /* Sickle.swift in Sources */,
+				A09282382744194E003387F8 /* Hummer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
