@@ -10,6 +10,8 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         ZStack {
+            FlagWave()
+                .frame(width: 210, height: 150)
             Flag()
                 .frame(width: 350, height: 250)
             Hummer()

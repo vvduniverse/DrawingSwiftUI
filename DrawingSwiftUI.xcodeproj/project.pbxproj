@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A0423D672744E787003AE11F /* Underlying.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0423D662744E787003AE11F /* Underlying.swift */; };
+		A0423D892745355E003AE11F /* FlagWave.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0423D882745355E003AE11F /* FlagWave.swift */; };
 		A092822A274418CC003387F8 /* DrawingSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0928229274418CC003387F8 /* DrawingSwiftUIApp.swift */; };
 		A092822C274418CC003387F8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A092822B274418CC003387F8 /* ContentView.swift */; };
 		A092822E274418CE003387F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A092822D274418CE003387F8 /* Assets.xcassets */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A0423D662744E787003AE11F /* Underlying.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Underlying.swift; sourceTree = "<group>"; };
+		A0423D882745355E003AE11F /* FlagWave.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlagWave.swift; sourceTree = "<group>"; };
 		A0928226274418CC003387F8 /* DrawingSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrawingSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0928229274418CC003387F8 /* DrawingSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingSwiftUIApp.swift; sourceTree = "<group>"; };
 		A092822B274418CC003387F8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -77,9 +81,11 @@
 		A092823F274433A3003387F8 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				A0423D662744E787003AE11F /* Underlying.swift */,
 				A09282372744194E003387F8 /* Hummer.swift */,
 				A092823927441965003387F8 /* Sickle.swift */,
 				A092823B27441975003387F8 /* Flag.swift */,
+				A0423D882745355E003AE11F /* FlagWave.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -156,8 +162,10 @@
 			files = (
 				A092822C274418CC003387F8 /* ContentView.swift in Sources */,
 				A092822A274418CC003387F8 /* DrawingSwiftUIApp.swift in Sources */,
+				A0423D672744E787003AE11F /* Underlying.swift in Sources */,
 				A092823C27441975003387F8 /* Flag.swift in Sources */,
 				A092823A27441965003387F8 /* Sickle.swift in Sources */,
+				A0423D892745355E003AE11F /* FlagWave.swift in Sources */,
 				A09282382744194E003387F8 /* Hummer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
