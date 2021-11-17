@@ -18,7 +18,7 @@ struct FlagWave: View {
     }
 }
 
-struct Home_Previews: PreviewProvider {
+struct FlagWave_Previews: PreviewProvider {
     static var previews: some View {
         FlagWave()
     }
